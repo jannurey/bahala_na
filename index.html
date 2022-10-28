@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Ahh Basta</title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    var Name = prompt("what should I call you?");
+    
+    if(Name == "" || Name == null) {
+    alert("please enter your name.");
+    } else {
+    alert("When I'm with you it feels like deja vu")
+    alert("Hi " + Name + ", KANUS.A PAMAN KO MAKABALIK SA INYOHA?"); 
+    }
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1>Hello pretty:)!</h1>
+<img src="https://c.tenor.com/sZPWbZj_QI8AAAAi/kakaotalk-emoticon.gif" height="200" />
+<img src="https://media.tenor.com/vuRzrrA8MBIAAAAj/love-doggo.gif" height="200" />
+<h1 style="#">Ako nalang lagi, aww charott HAHAHA</h1>
+<div id="By" style="position:absolute; left:64px; top:570px; width:210px;
+height:210px;">
+<input type="button" value=" YES " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:570px; width:210px; height:210px;">
+<input type="button" value=" NO " onMouseOver="f()" />
+</div>
+<div>
+    <img src="img.jpeg" style="position: absolute; top:600px; width:120px; height:200px">
+    <img src="img2.jpg" style="position:absolute; left:150px; top:600px; width:130px; height:200px">
+</div>
+<div>
+    <img src="img3.jpg" style="position:absolute; top:805px; width:260px; height:450px">
+</div>
+
+</body>
+</html>
